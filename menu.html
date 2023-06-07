@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="main.html">
+                        <img class="logo__img" src="images/Logo.svg" alt="">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="main.html">Home</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link
+                                menu__list-lik--active" href="menu.html">Menu</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="reservation.html">Reservation</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="location.html">Location</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link
+                                " href="contacts.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+
+            <section class="menu">
+                <div class="container">
+                    <div class="tabs">
+                        <div class="tabs__btn">
+                            <button class="tabs__btn-item
+                            tabs__btn-item--active" data-button="content-1" data-button="content-1.1">Meat</button>
+                            <button class="tabs__btn-item" data-button="content-2"
+                                data-button="content-2.1">Fish</button>
+                            <button class="tabs__btn-item" data-button="content-3" data-button="content-3.1">Salads &
+                                Snacks</button>
+                            <button class="tabs__btn-item" data-button="content-4"
+                                data-button="content-4.1">Soup</button>
+                            <button class="tabs__btn-item" data-button="content-5"
+                                data-button="content-5.1">Desert</button>
+                        </div>
+
+                        <div class="tabs__content">
+                            <div class="tabs__content-item tabs__content-item--active " id="content-1">
+                                <div class="rigt">
+                                    <div class="card">
+                                        <img class="card__img" src="images/1.jpg" alt="">
+                                        <h4 class="cards__title">Beef medallions with oyster mushrooms
+                                        </h4>
+                                        <p class="card__text">Медальоны из говядины с вешенками,
+                                            соус Понзу </p>
+
+                                        <p class="card__price">15$/300g</p>
+                                       
+                                    </div>
+
+
+                                </div>
+
+
+
+                                <div class="card">
+                                    <img class="card__img" src="images/2.jpg" alt="">
+                                    <h4 class="cards__title">Beef tongue with Tar-Tar sauce.</h4>
+                                    <p class="card__text">Говяжий язык с соусом Тар-Тар. </p>
+                                    <p class="card__price">15$/300g</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content-item tabs__content-item--active" id="content-1.1">
+                            <div class="card">
+                                <img class="card__img" src="images/3.jpg" alt="">
+                                <h4 class="cards__title">Pork ribs, honey mustard, chili sauce.</h4>
+                                <p class="card__text">Свинные ребра, медово-горчичный, чили соус.</p>
+                                <p class="card__price">15$/300g</p>
+                               
+                            </div>
+
+                            <div class="card">
+                                <img class="card__img" src="images/4.jpg" alt="">
+                                <h4 class="cards__title">Turkey fillet with fresh vegetables.</h4>
+                                <p class="card__text">Филе индейки со свежими овощами.</p>
+                                <p class="card__price">12$/300g</p>
+                                
+                            </div>
+
+                        </div>
+                        <div class="tabs__content-item " id="content-2">
+                            <div class="rigt">
+
+                                <div class="card">
+                                    <img class="card__img" src="images/5.jpg" alt="">
+                                    <h4 class="cards__title">Octopus with green pea puree.
+                                    </h4>
+                                    <p class="card__text">Осьминоги с пюре из зеленого горошка. </p>
+                                    <p class="card__price">21$/300g</p>
+                                   
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/6.jpg" alt="">
+                                    <h4 class="cards__title">Salmon fillet with Aioli sauce.</h4>
+                                    <p class="card__text">Филе лосося с соусом Айоли. </p>
+                                    <p class="card__price">17$/300g</p>
+                                
+                                </div>
+                            </div>
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/7.jpg" alt="">
+                                    <h4 class="cards__title">Langoustines with avocado.</h4>
+                                    <p class="card__text">Лангустины с авокадо.</p>
+                                    <p class="card__price">21$/300g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/8.jpg" alt="">
+                                    <h4 class="cards__title">Dorado with Gremolada.</h4>
+                                    <p class="card__text">Дорадо с гремоладой.</p>
+                                    <p class="card__price">17$/300g</p>
+                                   
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tabs__content-item " id="content-3">
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/9.jpg" alt="">
+                                    <h4 class="cards__title">Beef tartar.
+                                    </h4>
+                                    <p class="card__text">Тар-Тар из говядины.
+                                    </p>
+                                    <p class="card__price">7.5$/100g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/10.jpg" alt="">
+                                    <h4 class="cards__title">Tuna tarts.</h4>
+                                    <p class="card__text">Тататки из тунца.</p>
+                                    <p class="card__price">9.5$/220g</p>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/11.jpg" alt="">
+                                    <h4 class="cards__title">Hummus with Roasted Peppers and Artichokes.</h4>
+                                    <p class="card__text">Хумус с печеным перцем и артишоками.</p>
+                                    <p class="card__price">7.6$/220g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/12.jpg" alt="">
+                                    <h4 class="cards__title">Salad with squid, avocado and tomato.</h4>
+                                    <p class="card__text">Салат с кальмаром, авокадо и томатом.</p>
+                                    <p class="card__price">5$/170g</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content-item " id="content-4">
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/13.jpg" alt="">
+                                    <h4 class="cards__title">Soup of the day.
+                                    </h4>
+                                    <p class="card__text">Суп дня.
+                                    </p>
+                                    <p class="card__price">4$/300g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/14.jpg" alt="">
+                                    <h4 class="cards__title">White bean soup with meat.</h4>
+                                    <p class="card__text">Суп из белой фасоли с мясом. </p>
+                                    <p class="card__price">6.5$/270g</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/15.jpg" alt="">
+                                    <h4 class="cards__title">Cream of zucchini soup.</h4>
+                                    <p class="card__text">Крем суп из цукини.</p>
+                                    <p class="card__price">4.5$/270g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/16.jpg" alt="">
+                                    <h4 class="cards__title">Tom yum with seafood.</h4>
+                                    <p class="card__text">Том-ям с морепродуктами.</p>
+                                    <p class="card__price">5$/270g</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content-item " id="content-5">
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/17.jpg" alt="">
+                                    <h4 class="cards__title">Wagashi.
+                                    </h4>
+                                    <p class="card__text">Вагаси.</p>
+                                    <p class="card__price">5.5$/50g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/18.jpg" alt="">
+                                    <h4 class="cards__title">Millefeuille with Muslin cream. </h4>
+                                    <p class="card__text">Мильфей с кремом Муслин.</p>
+                                    <p class="card__price">4.$/180g</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="rigt">
+                                <div class="card">
+                                    <img class="card__img" src="images/19.jpg" alt="">
+                                    <h4 class="cards__title">Sobre blackcurrant.</h4>
+                                    <p class="card__text">Собре с черной смородиной.</p>
+                                    <p class="card__price">4$/50g</p>
+                                    
+                                </div>
+
+                                <div class="card">
+                                    <img class="card__img" src="images/20.jpg" alt="">
+                                    <h4 class="cards__title">Chocolate cake.</h4>
+                                    <p class="card__text">Шоколадный торт.</p>
+                                    <p class="card__price">4.5$/150g</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Sitemap</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="main.html">Home</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link
+                            " href="menu.html">Menu</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="reservation.html">Reservation</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="location.html">Location</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="contacts.html">Contact us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">
+                                Location</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-text">
+                                Upper Level,</p>
+                        </li>
+
+                        <p class="footer__menu-text">
+                            Overseas Passenger Terminal,</p>
+                        <p class="footer__menu-text">
+                            The Rocks,</p>
+                        <p class="footer__menu-text">
+                            Sydney 2000</p>
+                        <p class="footer__menu-text">
+                            phone:</p>
+
+                        <a class="footer__menu-link" href="#">02 9251 5600 </a>
+                    </ul>
+
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">
+                                Opening hours</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-text">
+                                LUNCH</p>
+                        </li>
+
+                        <p class="footer__menu-text">
+                            Saturday and Sunday</p>
+                        <p class="footer__menu-text">
+                            Reservations from 12pm to 1.30pm</p>
+                        <p class="footer__menu-text">
+                            DINNER</p>
+                        <p class="footer__menu-text">
+                            Thursday to Sunday</p>
+                        <p class="footer__menu-text">
+                            Reservations from 6pm to 8.45pm</p>
+
+                        </li>
+                    </ul>
+
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">
+                                Reservations
+                            </p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Make a reservation</a>
+                        </li>
+
+                        <p class="footer__menu-item">
+                            We acknowledge the Traditional Custodians of this land
+                        </p>
+                        <p class="footer__menu-text">
+                            upon which Quay sits,the Gadigal of the Eora Nation.
+                        </p>
+                        <p class="footer__menu-text">
+                            We recognise their continuing connection and unique cultural
+                        </p>
+                        <p class="footer__menu-text">
+                            and spiritual relationship to the land, water and community.
+                        </p>
+                        <p class="footer__menu-text">
+                            We pay our deepest respects to them and their culture,
+                        </p>
+                        <p class="footer__menu-text">
+                            and to Elders, past, present and emerging.
+                        </p>
+                        </li>
+                    </ul>
+                </nav>
+
+                <ul class="social">
+                    <li class="social__text">
+                        <a class="social__item-link" href="#">
+                            <img class="social__item-img" src="images/instagram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social__text">
+                        <a class="social__item-link" href="#">
+                            <img class="social__item-img" src="images/Vk.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+
+
+                <nav class="copy__nav">
+                    <ul class="copy__nav-list">
+                        <li class="copy__nav-item"><a class="copy__nav-link" href="#">Team of Service</a>
+                        </li>
+
+                        <li class="copy__nav-item"><a class="copy__nav-link" href="#">Privacy Pollicy</a>
+                        </li>
+
+                        <li class="copy__nav-item"><a class="copy__nav-link" href="#">Do Not My Personal Information</a>
+                        </li>
+
+                    </ul>
+
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
